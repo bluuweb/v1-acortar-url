@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container my-5">
+        <h1>Lorem ipsum dolor</h1>
+
+        <form id="formulario">
+            <input type="text" class="form-control mb-2" placeholder="Ingrese URL" id="inputTexto">
+            <button class="btn btn-primary" type="submit">Acortar URL</button>
+        </form>
+
+        <div class="d-flex justify-content-center mt-5 d-none" id="spinner">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <div class="mt-2" id="resultadoEnlaces">
+            <article class="card mb-2">
+                <div class="card-body">
+                    Sin enlaces guardados
+                </div>
+            </article>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
